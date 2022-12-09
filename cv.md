@@ -4,10 +4,11 @@
 
 ### About me ###
 I worked at a job I didn't like and in my spare time I got interested in programming. At that moment I met a girl and I wanted to make a website for her, she is a photographer. I found video tutorials on YouTube and wrote frontend from scratch. *I learned css and html on my own.* 
-My strengths: * *I always do the job to the end if I enjoy it*
-              * *fast learner*
-              * *i love my sense of style*
-              * *I only do what I like*
+My strengths: 
+* *I always do the job to the end if I enjoy it*
+* *fast learner*
+* *i love my sense of style*
+* *I only do what I like*
 
 ### Skills ###
 css, html
