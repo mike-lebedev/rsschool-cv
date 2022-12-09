@@ -1,3 +1,45 @@
-h1 {
-    color: rgba(46, 44, 44, 0.973);
+h4 {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0px 20px;
+    padding: 0px;
+}
+
+.body {
+    background-color: rgba(222, 184, 135, 0.179);
+}
+
+.contact_info {
+    font-size: 18px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+}
+
+.contact__h4 {
+    margin-left: 20px;
+}
+
+.about__me {
+    margin-top: 10px;
+}
+
+.my__photo {
+    height: 180px;
+    width: 160px;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+}
+
+.text_about__me {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
