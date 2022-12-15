@@ -228,3 +228,7 @@ footer {
     position: relative;
     top: 3px;
 }
+
+.footer-rsschool a:hover {
+    text-decoration: none;
+}
