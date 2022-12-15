@@ -1,45 +1,173 @@
-h4 {
-    padding: 0;
-    margin: 0;
-}
-
-li {
-    padding: 0;
-    margin: 0;
-}
-
-ul {
-    margin: 0px 20px;
-    padding: 0px;
-}
-
-.body {
-    background-color: rgba(222, 184, 135, 0.179);
-}
-
-.contact_info {
-    font-size: 18px;
-    border-bottom: 1px solid rgb(0, 0, 0, 0.5);
-    padding-bottom: 10px;
-}
-
-.contact__h4 {
-    margin-left: 20px;
-}
-
-.about__me {
-    margin-top: 10px;
-}
-
-.my__photo {
-    height: 180px;
-    width: 160px;
-    right: 10px;
-    top: 10px;
-    position: absolute;
-}
-
-.text_about__me {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+    }
+    
+    a {
+        position: relative;
+        color: #000000;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    a:after {
+        display: block;
+        position: absolute;
+        right: 0;
+        width: 0;
+        height: 0.5px;
+        background-color: #000000;
+        content: "";
+        transition: width 0.3s ease-out;
+    }
+    
+    a:hover:after,
+    a:focus:after {
+        width: 100%;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        margin: 0;
+        text-decoration: none;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 320px;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #000000;
+    }
+    
+    main {
+        display: block;
+    }
+    
+    section {
+        display: block;
+    }
+    
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }
+    
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+    
+    .container {
+        max-width: 1440px;
+        padding: 0 15px;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    .header {
+        display: block;
+        background-color: #e7e5e556;
+    }
+    
+    .nav {
+        display: block;
+    }
+    
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    
+    .nav-link {
+        position: relative;
+        margin: 0 12px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 300;
+        color: rgb(0, 0, 0);
+    }
+    
+    .main {
+        margin-bottom: auto;
+    }
+    
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .section {
+        border-bottom: 1px solid #e7e5e594;
+    }
+    
+    .section-profile {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 50px 30px 35px;
+    }
+    
+    .section-profile-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .section-subtitle {
+        color: #5c5c5c;
+        line-height: 50px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+    
+    .main-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .section-about_me {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    
+    .section-about_me-img {
+        margin-left: -20px;
+        list-style: none;
+        padding-left: 20px;
+        background-repeat: no-repeat;
+        background-image: url(/assets_img/icon1.png);
+    }
+    
+    .section-my_strengths {
+        padding: 10px;
+        justify-content: center;
+        border-bottom: 1px solid #e7e5e594;
+    }
+    
+    .container-About_me {}
