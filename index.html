@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="./assets_img/FavIcon.png" sizes="32x32">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
 </head>
 
 <body>
@@ -46,7 +48,7 @@
                 <h3 class="mane__name_subtitle">unemployed</h3>
             </div>
             <div class="main__photo">
-                <img src="./assets_img/MyPhoto.jpg" alt="My photo" width="250" height="300">
+                <img class="main__photo_img" src="./assets_img/MyPhoto2.jpg" alt="My photo">
             </div>
         </div>
 
@@ -110,7 +112,7 @@
  padding: 0;
  background-color: whitesmoke;
                             
-position: fixed;
+.position: fixed;
  top: 0;
  left: 0;
  right: 0;
@@ -168,6 +170,12 @@ align-items: center;
             </a>
         </div>
     </footer>
+
+    <script>
+        $(document).scroll(function(e) {
+            $(window).scrollTop() > 100 ? $('.header').addClass('header_color') : $('.header').removeClass('header_color');
+        });
+    </script>
 
 </body>
 
