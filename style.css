@@ -143,21 +143,16 @@ a:focus:after {
     list-style-type: none;
 }
 
-.discord_icon {
-    display: flex;
-}
-
 .contacts__name {
-    margin-top: -5px;
-    padding: 2px 0 0 5px;
+    margin-left: 2px;
 }
 
-.telegram_icon {
-    display: flex;
+.сontacts__icon_telegram {
+    list-style: url(./assets_img/discord.png);
 }
 
-.discord_icon {
-    display: flex;
+.сontacts__icon_discord {
+    list-style: url(./assets_img/telegram.png);
 }
 
 .container__section_double {
@@ -165,7 +160,8 @@ a:focus:after {
     justify-content: space-between;
     flex-wrap: nowrap;
     margin: 0;
-    padding: 30px 0;
+    padding-top: 30px;
+    margin: 0 20px;
     flex-direction: row;
 }
 
@@ -175,15 +171,11 @@ a:focus:after {
 }
 
 .list_my_soft-skills-img {
-    margin-left: -20px;
-    list-style: none;
-    padding-left: 20px;
-    background-repeat: no-repeat;
-    background-image: url(/assets_img/icon2.png);
+    list-style: url(./assets_img/icon2.png);
 }
 
 .css-code {
-    height: 100px;
+    height: 150px;
     font-size: 10px;
     display: block;
     overflow-x: auto;
