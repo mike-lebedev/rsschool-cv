@@ -19,24 +19,42 @@
     <header class="header">
         <div class="container">
             <nav class="nav">
-                <a href="#About_me" class="nav-link">
+                <ul class="nav__ul">
+                    <li class="nav__li">
+                        <a href="#About_me" class="nav-link">
                     About me
                 </a>
-                <a href="#contacts" class="nav-link">
+                    </li>
+                    <li>
+                        <a href="#Projects" class="nav-link">
+                            Projects
+            </a>
+                    </li>
+                    <li class="nav__li">
+                        <a href="#contacts" class="nav-link">
                     Contacts
                 </a>
-                <a href="#Skills" class="nav-link">
+                    </li>
+                    <li class="nav__li">
+                        <a href="#Skills" class="nav-link">
                     Skills
                 </a>
-                <a href="#Code_examples" class="nav-link">
+                    </li>
+                    <li class="nav__li">
+                        <a href="#Code_examples" class="nav-link">
                     Code examples
                 </a>
-                <a href="#Education" class="nav-link">
+                        <li class="nav__li">
+                        </li>
+                        <a href="#Education" class="nav-link">
                     Education
                 </a>
-                <a href="#Language" class="nav-link">
+                        <li>
+                            <a href="#Language" class="nav-link">
                     Language
                 </a>
+                        </li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -44,7 +62,7 @@
     <main class="main">
         <div class="main__name_photo">
             <div class="main__name">
-                <h1 class="mane__name_title">Mikhail Lebedev</h1>
+                <h1 class="main__name_title">Mikhail Lebedev</h1>
                 <h3 class="mane__name_subtitle">unemployed</h3>
             </div>
             <div class="main__photo">
@@ -57,8 +75,22 @@
                 <h2 class="tittle">Abot me</h2>
                 <p>
                     I worked at a job I didn't like and in my spare time I got interested in programming. At that moment I met a girl and I wanted to make a website for her, she is a photographer. I found video tutorials on YouTube and wrote frontend from scratch. <i>I learned css and html on my own.</i>
+
                 </p>
+                <div class="Projects" id="Projects">
+                    <h2 class="tittle">Projects</h2>
+
+                    <div>
+                        <img class="projects__img" src="./assets_img/ksenija.png" alt="My photo">
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://ksenijabelaja.ru/">
+                        ksenijabelaja.ru
+                        </a>
+                    </div>
+                </div>
             </section>
+
             <section class="contacts" id="contacts">
                 <h2 class="tittle">Contacts</h2>
                 <div class="contacts__items">
@@ -146,7 +178,8 @@ align-items: center;
             <section class="section_double" id="Education">
                 <h2 class="tittle">Education</h2>
                 <p class="education_text">
-                    Secondary special education <i>engineer with specialty in mechanical engineering</i>
+                    St.Petersburg technical college
+                    <br> Secondary special education <i>engineer with specialty in mechanical engineering</i>
                 </p>
             </section>
 
