@@ -143,16 +143,12 @@ a:focus:after {
     list-style-type: none;
 }
 
-.contacts__name {
-    margin-left: 2px;
-}
-
 .сontacts__icon_telegram {
-    list-style: url(./assets_img/discord.png);
+    list-style: url(./assets_img/telegram.png);
 }
 
 .сontacts__icon_discord {
-    list-style: url(./assets_img/telegram.png);
+    list-style: url(./assets_img/discord.png);
 }
 
 .container__section_double {
