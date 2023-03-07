@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +13,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
 </head>
-
 <body>
     <header class="header">
         <div class="container">
@@ -22,39 +20,39 @@
                 <ul class="nav__ul">
                     <li class="nav__li">
                         <a href="#About_me" class="nav-link">
-                    About me
-                </a>
+                            About me
+                        </a>
                     </li>
                     <li>
                         <a href="#Projects" class="nav-link">
                             Projects
-            </a>
+                        </a>
                     </li>
                     <li class="nav__li">
                         <a href="#contacts" class="nav-link">
-                    Contacts
-                </a>
+                            Contacts
+                        </a>
                     </li>
                     <li class="nav__li">
                         <a href="#Skills" class="nav-link">
-                    Skills
-                </a>
+                            Skills
+                        </a>
                     </li>
                     <li class="nav__li">
                         <a href="#Code_examples" class="nav-link">
-                    Code examples
-                </a>
+                            Code examples
+                        </a>
                     </li>
                     <li class="nav__li">
 
                         <a href="#Education" class="nav-link">
-                    Education
-                </a>
+                            Education
+                        </a>
                     </li>
                     <li>
                         <a href="#Language" class="nav-link">
-                    Language
-                </a>
+                            Language
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -76,8 +74,9 @@
             <section class="about_me" id="About_me">
                 <h2 class="tittle">Abot me</h2>
                 <p>
-                    I worked at a job I didn't like and in my spare time I got interested in programming. At that moment I met a girl and I wanted to make a website for her, she is a photographer. I found video tutorials on YouTube and wrote frontend from scratch. <i>I learned css and html on my own.</i>
-
+                    I worked at a job I didn't like and in my spare time I got interested in programming. At that moment
+                    I met a girl and I wanted to make a website for her, she is a photographer. I found video tutorials
+                    on YouTube and wrote frontend from scratch. <i>I learned css and html on my own.</i>
                 </p>
                 <div class="Projects" id="Projects">
                     <h2 class="tittle">Projects</h2>
@@ -87,7 +86,7 @@
                     </div>
                     <div>
                         <a target="_blank" href="https://ksenijabelaja.ru/">
-                        ksenijabelaja.ru
+                            ksenijabelaja.ru
                         </a>
                     </div>
                 </div>
@@ -98,11 +97,12 @@
                 <div class="contacts__items">
                     <ul class="ul_contacts">
                         <li class="сontacts__icon_discord">
-                            <a class="none" target="_blank" href="https://discordapp.com/users/SirMisha#1770">SirMisha#1770 
+                            <a class="none" target="_blank"
+                                href="https://discordapp.com/users/SirMisha#1770">SirMisha#1770
                             </a>
                         </li>
                         <li class="сontacts__icon_telegram">
-                            <a class="none" target="_blank" href="https://t.me/Mihacik">Mihacik 
+                            <a class="none" target="_blank" href="https://t.me/Mihacik">Mihacik
                             </a>
                         </li>
                     </ul>
@@ -132,45 +132,21 @@
                 <h2 class="tittle">Code examples</h2>
                 <pre>
                     <code class="css-code" id="code">
-.header {
- width: 100%;
- position: absolute;
- top: 0;
- left: 0;
- right: 0;
- z-index: 1000;
- padding-top: 30px;
-}
-                        
-.header.fixed {
- padding: 0;
- background-color: whitesmoke;
-                            
-.position: fixed;
- top: 0;
- left: 0;
- right: 0;
- transform: translate3d(0, 0, 0);
- /*меню при скроле не будет дергаться*/
- transition: background .2s linear;
-}
-                        
-.header.active {
- background-color: #606056;
-}
-                        
-.header_logo {
- cursor: pointer;
- font-size: 25px;
- font-weight: 700;
- color: black;
-}
+                        function filterString(str, word) {
+                            let result = '';
+                            let i = 0;
+                            while (i < str.length) {
+                              if (str[i] !== word) {
+                                result = result + str[i];
+                              }
+                              i++;
+                              }
+                            return result
+                            }
 
-.header_inner {
- display: flex;
- justify-content: space-between;
-align-items: center;
-}  
+                          const str = 'If I look back I am lost';
+                          console.log(filterString(str, 'I')); // 'f  look back  am lost'
+                          }
                     </code>
                 </pre>
             </section>
@@ -207,11 +183,10 @@ align-items: center;
     </footer>
 
     <script>
-        $(document).scroll(function(e) {
+        $(document).scroll(function (e) {
             $(window).scrollTop() > 100 ? $('.header').addClass('header_color') : $('.header').removeClass('header_color');
         });
     </script>
-
 </body>
 
 </html>
