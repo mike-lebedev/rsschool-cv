@@ -93,14 +93,15 @@ a:focus:after {
 }
 
 .main {
-    padding: 20px 0;
+    /* padding: 20px 0; */
     display: block;
 }
 
-.main__name_photo {
+.container__mainTittle {
     display: flex;
-    padding-bottom: 10px;
-    border-bottom: solid 1px rgba(0, 0, 0, 0.445);
+    padding-bottom: 50px;
+    justify-content: center;
+    /* border-bottom: solid 1px rgba(0, 0, 0, 0.445); */
 }
 
 .main__name {
@@ -127,18 +128,20 @@ a:focus:after {
 
 .main__photo_img {
     box-shadow: 1px 0.5px 10px 0.5px black;
+    width: 60%;
 }
 
 .about_me__contacts {
     display: flex;
     padding: 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.445);
+    width: 30%;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.445); */
 }
 
-.about_me {
+/* .about_me {
     padding: 10px 0;
     width: 70%;
-}
+} */
 
 .projects {
     padding-top: 20px;
@@ -154,14 +157,15 @@ a:focus:after {
     font-weight: 400;
     font-size: 34px;
 }
+.container__contacts {
+    display: flex;
+    padding: 20px 200px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.445);
+    align-items: center;
+    justify-content: center;
 
+}
 .contacts {
-    display: block;
-    position: relative;
-    left: 5%;
-    top: 200px;
-    width: 20%;
-    height: 40%;
     padding: 10px 0;
     border: solid 1px rgba(0, 0, 0, 0.082);
 }
@@ -177,7 +181,7 @@ a:focus:after {
 }
 
 .ul_contacts {
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .contacts__items {
