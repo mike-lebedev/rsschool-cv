@@ -6,6 +6,7 @@
 ### About me ###
 Graduated from secondary vocational education with a degree in mechanical engineering.
 I worked at a job I didn't like and in my spare time I got interested in programming. At that moment I met a girl and I wanted to make a website for her, she is a photographer. I found video tutorials on YouTube and wrote frontend from scratch. *I learned css and html on my own.*
+In July 2024, he began to re-take the course at RS scool
 
 
 ### Soft skills ###
