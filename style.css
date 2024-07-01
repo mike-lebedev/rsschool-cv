@@ -144,7 +144,11 @@ a:focus:after {
 } */
 
 .projects {
-    padding-top: 20px;
+    padding: 20px 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .projects__img {
@@ -171,6 +175,7 @@ a:focus:after {
 }
 
 .Projects {
+    border-top: 1px solid rgba(0, 0, 0, 0.445);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -243,12 +248,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px;
+    padding: 2px 20px;
     background-color: rgba(0, 0, 0, 0.060);
 }
 
 .footer-year {
-    width: 100px;
     text-align: center;
     font-size: 20px;
     color: var(--bg-color);
